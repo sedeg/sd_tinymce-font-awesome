@@ -65,8 +65,8 @@ class SDTinyMCEFontAwesome
 	 */
 	function enqueue_stylesandscripts_fe()
 	{
-		wp_register_style('styles_fe', plugins_url('/css/sd_tinymce_fa_be.css', __FILE__));
-		wp_enqueue_style('styles_fe');
+		wp_register_style('sd_tinymce-styles-fe', plugins_url('/css/sd_tinymce_fa_be.css', __FILE__));
+		wp_enqueue_style('sd_tinymce-styles-fe');
 
 	}
 
@@ -75,8 +75,8 @@ class SDTinyMCEFontAwesome
 	 */
 	public function enqueue_stylesandscripts_be()
 	{
-		wp_register_style('styles_backend', plugins_url('/css/sd_tinymce_fa_be.css', __FILE__));
-		wp_enqueue_style('styles_backend');
+		wp_register_style('sd_tinymce-styles-be', plugins_url('/css/sd_tinymce_fa_be.css', __FILE__));
+		wp_enqueue_style('sd_tinymce-styles-be');
 	}
 
 
